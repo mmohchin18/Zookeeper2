@@ -46,13 +46,13 @@ public class Cat extends Mammal{
         this.victims = victims1;
     }
 
-    @Override
-    public String breathe(){
-        return "I can breathe";
-    }
-
-    @Override
-    public String reproduce(){
-        return "I can reproduce";
-    }
+//    @Override
+//    public String breathe(){
+//        return "I can breathe";
+//    }
+//
+//    @Override
+//    public String reproduce(){
+//        return "I can reproduce";
+//    }
 }
