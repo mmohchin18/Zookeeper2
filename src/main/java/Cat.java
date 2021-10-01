@@ -19,6 +19,7 @@ public class Cat extends Mammal{
     //METHOD ---Getters
     // when you call this method, you get back the String(which we named 'name')
     public String getName() {
+
         return name;
     }
 
@@ -46,13 +47,13 @@ public class Cat extends Mammal{
         this.victims = victims1;
     }
 
-//    @Override
-//    public String breathe(){
-//        return "I can breathe";
-//    }
-//
-//    @Override
-//    public String reproduce(){
-//        return "I can reproduce";
-//    }
+    @Override
+    public String breathe(){
+        return "I can breathe";
+    }
+
+    @Override
+    public String reproduce(){
+        return "I can reproduce";
+    }
 }
